@@ -4,32 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sasha.css">
     <title>Netflix</title>
 </head>
-<main>
-    <header>
-        <img src="img/logo.png" alt="logo" class="logo">
-        <form action="choose_lang">
-            <select name="lang" id="lang" form="lang">
-                <option value="volvo">English</option>
-                <option value="saab">Francais</option>
-                <option value="opel">Deutsch</option>
-            </select>
-        </form>
-        <button>Sign in</button>
-    </header>
-    <h1>Unlimited movies, TV shows, and more.</h1>
-    <h2>Watch anywhere. Cancel anytime.</h2>
-    <p>Ready to watch? Enter your email to create or restart your membership.</p>
-    <form action="send_name">
-        <input type="text" id="" name="">
-        <button>Get started ></button>
-    </form>
-</main>
 
 <body>
+    <main>
+        <header class="no-bg">
+            <img src="img/logo.png" alt="logo" class="logo">
+            <form action="choose_lang" class="no-bg">
+                <select name="lang" id="" form="lang" class="lang_size no-bg">
+                    <option value="volvo" class="lang_box">English</option>
+                    <option value="saab">Francais</option>
+                    <option value="opel">Deutsch</option>
+                </select>
+            </form>
+            <button class="signin_btn"><a href="#"></a>Sign in</button>
+        </header>
 
+        <section class="main_screen no-bg">
+            <h1 class="title center no-bg text-center">Unlimited movies, TV shows, and more.</h1>
+            <h2 class="sub_title center no-bg text-center">Watch anywhere. Cancel anytime.</h2>
+            <p class="text center no-bg text-center">Ready to watch? Enter your email to create or restart your
+                membership.
+            </p>
+            <form action="send_name" class="submit_email no-bg">
+                <input type="email" id="email" name="email" placeholder="Email address"><button>Get started ></button>
+            </form>
+        </section>
+    </main>
 </body>
 
 </html>

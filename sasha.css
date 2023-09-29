@@ -1,3 +1,21 @@
+* {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 30px 35px;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 45%, rgba(0, 0, 0, 0.2) 55%, rgba(0, 0, 0, 0.8) 100%),
+        url(img/background.jpg) 0 0 / cover no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 header {
     display: flex;
 }
@@ -5,4 +23,82 @@ header {
 .logo {
     margin-right: auto;
     max-width: 134px;
+    max-height: 36px;
+}
+
+.lang {
+    font-size: 1em;
+}
+
+.signin_btn {
+    background: #f40612;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1em;
+    margin: 0 15px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.lang_size {
+    border: none;
+    font-size: 1em;
+    margin: 0 15px;
+    padding: 0 15px;
+    height: 100%;
+    
+}
+
+.main_screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.no-bg {
+    background: none;
+}
+
+.title {
+    font-size: 3rem;
+    max-width: 20ch;
+    margin: 33.5px 0;
+}
+
+.sub_title {
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 0;
+}
+
+.text {
+    font-size: 1.3rem;
+    margin: 20px 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.submit_email {
+    height: 74px;
+    display: flex;
+}
+
+.submit_email > input {
+    height: 100%;
+    width: 450px;
+    background-color: white;
+    padding: 15px 10px;
+    border: 2px;
+}
+
+.submit_email> button {
+    height: 100%;
+    background-color: red;
+    padding: 20px;
+    font-size: 2rem;
+    display: block;
+    border: 2px;
 }
