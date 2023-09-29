@@ -1,0 +1,8 @@
+header {
+    display: flex;
+}
+
+.logo {
+    margin-right: auto;
+    max-width: 134px;
+}
